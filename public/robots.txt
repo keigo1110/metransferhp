@@ -1,0 +1,6 @@
+# robots.txt for Metransfer
+
+User-agent: *
+Allow: /
+
+Sitemap: https://metransferhp.vercel.app/sitemap.xml

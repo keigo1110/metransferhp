@@ -1,0 +1,79 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="#000000" />
+
+  <!-- 波の背景アニメーション（静的表現） -->
+  <g opacity="0.4">
+    <path d="M0 200 C150 150, 300 250, 450 200 C600 150, 750 250, 900 200 C1050 150, 1200 250, 1350 200 L1350 630 L0 630 Z" fill="url(#wave_gradient1)" />
+    <path d="M0 300 C150 250, 300 350, 450 300 C600 250, 750 350, 900 300 C1050 250, 1200 350, 1350 300 L1350 630 L0 630 Z" fill="url(#wave_gradient2)" />
+    <path d="M0 400 C150 350, 300 450, 450 400 C600 350, 750 450, 900 400 C1050 350, 1200 450, 1350 400 L1350 630 L0 630 Z" fill="url(#wave_gradient3)" />
+  </g>
+
+  <!-- タイトル -->
+  <text x="600" y="230" font-family="sans-serif" font-weight="bold" font-size="80" text-anchor="middle" fill="white">Metransfer</text>
+
+  <!-- サブタイトル -->
+  <text x="600" y="330" font-family="sans-serif" font-size="48" text-anchor="middle" fill="rgba(255,255,255,0.8)">波、泡沫、鼓動</text>
+
+  <!-- シャボン玉の装飾 -->
+  <g>
+    <!-- 大きなシャボン玉 -->
+    <circle cx="250" cy="400" r="100" fill="url(#bubble_gradient1)" fill-opacity="0.6" />
+    <circle cx="250" cy="400" r="100" stroke="url(#outline_gradient)" stroke-opacity="0.5" stroke-width="1" fill="none" />
+    <circle cx="200" cy="350" r="30" fill="white" fill-opacity="0.1" />
+
+    <!-- 中くらいのシャボン玉 -->
+    <circle cx="950" cy="350" r="70" fill="url(#bubble_gradient2)" fill-opacity="0.5" />
+    <circle cx="950" cy="350" r="70" stroke="url(#outline_gradient)" stroke-opacity="0.4" stroke-width="1" fill="none" />
+    <circle cx="920" cy="320" r="20" fill="white" fill-opacity="0.1" />
+
+    <!-- 小さなシャボン玉たち -->
+    <circle cx="400" cy="450" r="40" fill="url(#bubble_gradient1)" fill-opacity="0.4" />
+    <circle cx="400" cy="450" r="40" stroke="url(#outline_gradient)" stroke-opacity="0.3" stroke-width="1" fill="none" />
+
+    <circle cx="800" cy="480" r="50" fill="url(#bubble_gradient2)" fill-opacity="0.3" />
+    <circle cx="800" cy="480" r="50" stroke="url(#outline_gradient)" stroke-opacity="0.3" stroke-width="1" fill="none" />
+
+    <circle cx="650" cy="420" r="30" fill="url(#bubble_gradient1)" fill-opacity="0.3" />
+    <circle cx="650" cy="420" r="30" stroke="url(#outline_gradient)" stroke-opacity="0.2" stroke-width="1" fill="none" />
+  </g>
+
+  <!-- ロゴまたは追加テキスト -->
+  <text x="600" y="550" font-family="sans-serif" font-size="24" text-anchor="middle" fill="rgba(255,255,255,0.6)">metransferhp.vercel.app</text>
+
+  <!-- グラデーション定義 -->
+  <defs>
+    <!-- 波のグラデーション -->
+    <linearGradient id="wave_gradient1" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse" gradientTransform="scale(1 430)">
+      <stop offset="0" stop-color="#2c5282" stop-opacity="0.2" />
+      <stop offset="1" stop-color="#2c5282" stop-opacity="0.05" />
+    </linearGradient>
+
+    <linearGradient id="wave_gradient2" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse" gradientTransform="scale(1 330)">
+      <stop offset="0" stop-color="#3182ce" stop-opacity="0.15" />
+      <stop offset="1" stop-color="#3182ce" stop-opacity="0.03" />
+    </linearGradient>
+
+    <linearGradient id="wave_gradient3" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse" gradientTransform="scale(1 230)">
+      <stop offset="0" stop-color="#2b6cb0" stop-opacity="0.1" />
+      <stop offset="1" stop-color="#2b6cb0" stop-opacity="0.02" />
+    </linearGradient>
+
+    <!-- シャボン玉のグラデーション -->
+    <linearGradient id="bubble_gradient1" x1="0" y1="0" x2="1" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2c5282" stop-opacity="0.25" />
+      <stop offset="1" stop-color="#3182ce" stop-opacity="0.15" />
+    </linearGradient>
+
+    <linearGradient id="bubble_gradient2" x1="0" y1="0" x2="1" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a5568" stop-opacity="0.25" />
+      <stop offset="1" stop-color="#718096" stop-opacity="0.15" />
+    </linearGradient>
+
+    <linearGradient id="outline_gradient" x1="0" y1="0" x2="1" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#718096" stop-opacity="0.3" />
+      <stop offset="0.5" stop-color="#3182ce" stop-opacity="0.2" />
+      <stop offset="1" stop-color="#4a5568" stop-opacity="0.3" />
+    </linearGradient>
+  </defs>
+</svg>
